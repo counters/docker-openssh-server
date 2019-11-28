@@ -29,7 +29,7 @@
 #   VisualHostKey no
 #   ProxyCommand ssh -q -W %h:%p gateway.example.com
 #   RekeyLimit 1G 1h
-
+    GatewayPorts yes
     PasswordAuthentication no
     ChallengeResponseAuthentication no
     PermitRootLogin no
